@@ -1,0 +1,109 @@
+.navbar-brand{
+    color: #12D3CF;
+}
+
+nav .navbar-nav li a{
+    color: #A2EF44;
+}
+nav .navbar-nav li a:hover{
+    color: #12D3CF;
+}
+
+.navbar-custom{
+    background-color: none;
+}
+
+.navbar-toggler-icon{
+    background: url('https://imgs.search.brave.com/xBNAdk2riacBu9MmdfAV20epAAuq-j6nS4YbCB3m1Og/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5P/WDNKSXhEY2hoLWdU/Rk83d3pxRnVnSGFI/YSZwaWQ9QXBp');
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+/* main background image */
+.bg_img{
+    height: 100vh;
+    background: url('Images/1628159986248.jpg');
+    background-size: cover;
+    position: relative;
+    filter: blur(8px);
+}
+
+/* text over the background image */
+.main_title{
+    font-size: 4.5rem;
+}
+
+.main_des{
+    font-size: 2rem;
+}
+
+.main_text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #12D3CF;
+}
+
+/* about section's my cv image */
+.my_cv_img{
+    width: 80%;
+}
+
+ ul{
+    list-style-type: none;
+ }
+
+ h1,h3,h4{
+    color: #67EACA;
+ }
+
+ th,td{
+    padding: 17px;
+ }
+
+ td,.card-title{
+     color: #3D0240;
+ }
+
+ /* services section css */
+.skillText.card {
+    height: 4rem;
+    cursor: pointer;
+  }
+
+.card-title {
+    text-align: center;
+}
+
+.skillText:hover {
+    border: 2px solid #B062EA;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #3E206D;
+}
+.fab {
+    color: #3D0240;
+}
+/* footer styling */
+#footer {
+    background-color: #A2EF44;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about, #skills, #project, #contact_me {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact_me {
+    padding-bottom: 4rem;
+}
